@@ -1,0 +1,37 @@
+body {
+  display: flex;
+  flex-direction: column;
+  border-right: 2px solid #e0e0e0;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  flex: auto;
+}
+
+article {
+  flex: 2;
+  overflow-y: auto;
+  background-color: #e5d9f2;
+}
+
+aside {
+  flex: 1;
+  overflow-y: auto;
+  background-color: #e5d9f2;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: auto;
+}
+
+header,
+footer {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #cdc1ff;
+}
